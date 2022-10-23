@@ -24,7 +24,7 @@ RUN npm install -g npm-check-updates \
     npm install babel-preset \
     npm install babel-preset-env
 # If you are building your code for production
-RUN npm ci --only=production
+#RUN npm ci --only=production
 # Bundle app source
 COPY . /app
 EXPOSE 5000
