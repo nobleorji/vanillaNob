@@ -1,4 +1,4 @@
-# check out all Kubernetes commands here:
+ check out all Kubernetes commands here:
 # https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 # -----------------------------------------------------------*
 # implies the use of kubernetes 1.7
@@ -23,6 +23,7 @@ spec:
       # Image field in Kubernetes resources is simply the docker image to run.
       containers:
       - name: 5b686d629504
+      - name: nodejs-vanillanob
         # pulling image from my DockerHub
         image: nobleorji/nodejs-vanillanob:v1.0.1
         # using if not present works well with images that has tag
