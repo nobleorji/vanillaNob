@@ -108,8 +108,7 @@ jobs:
             # build the app docker image using the Dockerfile
             # and run that image in a container that's pushed to heroku
             usedocker: true
-
-deploy_docker_image_to_ECR:
+  deploy_docker_image_to_ECR:
     name: Deploy docker image to AWS ECR
     runs-on: ubuntu-latest
 
